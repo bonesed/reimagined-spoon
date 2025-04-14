@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ウェルテラスで、あなたの指導力を活かしませんか？トレーナー登録募集中です。">
+  <title>ウェルテラス | トレーナー募集</title>
+  
+  <!-- OGP設定 -->
+  <meta property="og:title" content="ウェルテラス | トレーナー募集">
+  <meta property="og:description" content="あなたの指導力が、誰かの未来を変える。ウェルテラスでトレーナーとして活動しませんか？">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://wellteras.jp/trainer">
+  <meta property="og:image" content="https://wellteras.jp/images/ogp-trainer.jpg">
+  <meta property="og:site_name" content="ウェルテラス">
+  <meta name="twitter:card" content="summary_large_image">
+  
+  <!-- ファビコン -->
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- AOS (Animate On Scroll) -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+  
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.3.2/swiper-bundle.min.css">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- ヘッダー -->
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <div class="header__logo">
+          <a href="/">
+            <img src="images/logo.png" alt="ウェルテラス" width="180" height="40">
+          </a>
+        </div>
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li><a href="#features">機能紹介</a></li>
+            <li><a href="#benefits">メリット</a></li>
+            <li><a href="#flow">活動の流れ</a></li>
+            <li><a href="#pricing">料金プラン</a></li>
+            <li><a href="#faq">よくある質問</a></li>
+          </ul>
+        </nav>
+        <div class="header__cta">
+          <a href="#contact" class="btn btn--primary">登録申請はこちら</a>
+        </div>
+        <button class="header__hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+  
+  <!-- メインビジュアル -->
+  <section class="mv">
+    <div class="container">
+      <div class="mv__inner">
+        <div class="mv__content" data-aos="fade-right" data-aos-duration="1000">
+          <h1 class="mv__title">あなたの"指導力"が、<br>誰かの未来を変える</h1>
+          <p class="mv__subtitle">ウェルテラスで、あなたの知識と経験を活かしませんか？</p>
+          <div class="mv__buttons">
+            <a href="#contact" class="btn btn--gradient btn--large">登録申請はこちら</a>
+          </div>
+        </div>
+        <div class="mv__image" data-aos="fade-left" data-aos-duration="1000">
+          <img src="images/mv-image.png" alt="ウェルテラストレーナー活動イメージ" width="600" height="500">
+        </div>
+      </div>
+    </div>
+    <div class="mv__bg">
+      <img src="images/mv-bg.svg" alt="">
+    </div>
+  </section>
+  
+  <!-- 課題提起 -->
+  <section class="problems" id="problems">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">こんなお悩みはありませんか？</h2>
+      <div class="problems__list">
+        <div class="problem-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="problem-card__icon">
+            <i class="fas fa-calendar-times"></i>
+          </div>
+          <h3 class="problem-card__title">集客に時間とコストがかかる</h3>
+          <p class="problem-card__text">SNSやWeb広告の運用、イベントへの出展…効果が見えづらく疲弊していませんか？</p>
+        </div>
+        
+        <div class="problem-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="problem-card__icon">
+            <i class="fas fa-users-slash"></i>
+          </div>
+          <h3 class="problem-card__title">クライアントとの継続的な関係構築が難しい</h3>
+          <p class="problem-card__text">一度きりのセッションで終わってしまい、長期的な変化を支援できていない</p>
+        </div>
+        
+        <div class="problem-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="problem-card__icon">
+            <i class="fas fa-chart-line-down"></i>
+          </div>
+          <h3 class="problem-card__title">収入が不安定で将来が見通せない</h3>
+          <p class="problem-card__text">予約の波に左右され、安定した収入計画が立てづらい日々</p>
+        </div>
+        
+        <div class="problem-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="problem-card__icon">
+            <i class="fas fa-lightbulb-slash"></i>
+          </div>
+          <h3 class="problem-card__title">自分の専門性を活かす場所が限られている</h3>
+          <p class="problem-card__text">独自の知識やアプローチを十分に発揮できる環境がない</p>
+        </div>
+        
+        <div class="problem-card" data-aos="fade-up" data-aos-delay="500">
+          <div class="problem-card__icon">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <h3 class="problem-card__title">デジタル活用のハードルが高く感じる</h3>
+          <p class="problem-card__text">オンライン指導に興味はあるが、始め方や継続の仕組みがわからない</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- アプリ機能紹介 -->
+  <section class="features" id="features">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">ウェルテラスアプリの主な機能</h2>
+      
+      <div class="features__grid">
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="feature-card__icon">
+            <img src="images/icon-avatar.png" alt="" width="64" height="64">
+          </div>
+          <h3 class="feature-card__title">目標体型のアバター設置・編集</h3>
+          <p class="feature-card__text">利用者が目指す理想の体型をアバターで視覚化。モチベーション維持とゴール設定の明確化をサポートします。</p>
+        </div>
+        
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="feature-card__icon">
+            <img src="images/icon-health.png" alt="" width="64" height="64">
+          </div>
+          <h3 class="feature-card__title">健康記録管理機能</h3>
+          <p class="feature-card__text">AIアシスタントが日々の食事・運動・睡眠などの記録をサポート。データに基づいた効果的なアドバイスが可能になります。</p>
+        </div>
+        
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="feature-card__icon">
+            <img src="images/icon-matching.png" alt="" width="64" height="64">
+          </div>
+          <h3 class="feature-card__title">トレーナーマッチング</h3>
+          <p class="feature-card__text">AIが利用者の生活習慣・目的に最適なトレーナーを提案。あなたのスキルを必要としている人と効率的につながれます。</p>
+        </div>
+        
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="feature-card__icon">
+            <img src="images/icon-shop.png" alt="" width="64" height="64">
+          </div>
+          <h3 class="feature-card__title">ショップ機能</h3>
+          <p class="feature-card__text">アバターカスタマイズアイテムや健康食品などを購入できるマーケットプレイス。あなたのオリジナル商品も販売可能です。</p>
+        </div>
+        
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+          <div class="feature-card__icon">
+            <img src="images/icon-ai.png" alt="" width="64" height="64">
+          </div>
+          <h3 class="feature-card__title">AIアシスタント機能</h3>
+          <p class="feature-card__text">AIがダイエットやトレーニング、食事管理の基本的な相談に対応。トレーナーはより専門的なアドバイスに集中できます。</p>
+        </div>
+        
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
+          <div class="feature-card__icon">
+            <img src="images/icon-community.png" alt="" width="64" height="64">
+          </div>
+          <h3 class="feature-card__title">コミュニティ機能</h3>
+          <p class="feature-card__text">バーチャル空間でユーザー同士、トレーナーが交流できる場を提供。トレーナー主催のオンラインイベントも開催可能です。</p>
+        </div>
+      </div>
+      
+      <div class="features__image" data-aos="zoom-in" data-aos-delay="700">
+        <img src="images/app-screens.png" alt="ウェルテラスアプリ画面" width="1000" height="500">
+      </div>
+    </div>
+  </section>
+  
+  <!-- メリット紹介 -->
+  <section class="benefits" id="benefits">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">ウェルテラスであなたの可能性が広がります</h2>
+      
+      <div class="benefits__list">
+        <div class="benefit-item" data-aos="fade-right">
+          <div class="benefit-item__content">
+            <div class="benefit-item__icon">
+              <i class="fas fa-mobile-alt"></i>
+            </div>
+            <h3 class="benefit-item__title">いつでもどこでも、あなたの専門性を届ける</h3>
+            <p class="benefit-item__text">空いた時間を有効活用。通勤中や隙間時間にチャットでアドバイスを提供し、場所を選ばず活動できます。利用者のライフスタイルに合わせた柔軟なサポートが可能です。</p>
+          </div>
+        </div>
+        
+        <div class="benefit-item benefit-item--reverse" data-aos="fade-left">
+          <div class="benefit-item__content">
+            <div class="benefit-item__icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <h3 class="benefit-item__title">意欲の高いユーザーと直接つながる</h3>
+            <p class="benefit-item__text">既に「変わりたい」という意思を持ったユーザーとマッチング。モチベーションの高いクライアントと継続的な関係を築けるため、本質的な成長支援ができます。</p>
+          </div>
+        </div>
+        
+        <div class="benefit-item" data-aos="fade-right">
+          <div class="benefit-item__content">
+            <div class="benefit-item__icon">
+              <i class="fas fa-robot"></i>
+            </div>
+            <h3 class="benefit-item__title">AIがトレーナー業務をサポート</h3>
+            <p class="benefit-item__text">面倒な栄養計算や基礎的なアドバイスはAIが代行。あなたはより専門的で付加価値の高い指導に集中できます。テクノロジーと人間の強みを掛け合わせた新しい指導スタイルです。</p>
+          </div>
+        </div>
+        
+        <div class="benefit-item benefit-item--reverse" data-aos="fade-left">
+          <div class="benefit-item__content">
+            <div class="benefit-item__icon">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <h3 class="benefit-item__title">自分らしいブランディングが可能</h3>
+            <p class="benefit-item__text">食事、運動、メンタル、睡眠…あなたの得意分野や独自のメソッドを活かしたプロフィールで差別化。自分の世界観を大切にしながら活動できます。</p>
+          </div>
+        </div>
+        
+        <div class="benefit-item" data-aos="fade-right">
+          <div class="benefit-item__content">
+            <div class="benefit-item__icon">
+              <i class="fas fa-money-bill-wave"></i>
+            </div>
+            <h3 class="benefit-item__title">コミュニティ機能の活用</h3>
+            <p class="benefit-item__text">ウェルテラスに登録しているトレーナー同士での交流や情報交換を行うことができます。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- 活動の流れ -->
+  <section class="flow" id="flow">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">ウェルテラスでの活動の流れ</h2>
+    
+      
+      <div class="flow__steps">
+        <div class="flow-step" data-aos="fade-up" data-aos-delay="100">
+          <div class="flow-step__number">1</div>
+          <div class="flow-step__content">
+            <h3 class="flow-step__title">プロフィール作成</h3>
+            <p class="flow-step__text">あなたの専門性、指導スタイル、得意分野を登録。ユーザー登録してユーザーとしても活動できます。</p>
+          </div>
+        </div>
+        
+        <div class="flow-step" data-aos="fade-up" data-aos-delay="200">
+          <div class="flow-step__number">2</div>
+          <div class="flow-step__content">
+            <h3 class="flow-step__title">ユーザーとマッチング</h3>
+            <p class="flow-step__text">あなたのプロフィールを見たユーザーから相談依頼が届きます。または、興味のあるユーザーにあなたから声をかけることも可能です。</p>
+          </div>
+        </div>
+        
+        <div class="flow-step" data-aos="fade-up" data-aos-delay="300">
+          <div class="flow-step__number">3</div>
+          <div class="flow-step__content">
+            <h3 class="flow-step__title">チャット＆アドバイス提供</h3>
+            <p class="flow-step__text">利用者の目標や状況に合わせた個別アドバイスを提供。AIとの連携で効率的にサポートできます。</p>
+          </div>
+        </div>
+        
+        <div class="flow-step" data-aos="fade-up" data-aos-delay="400">
+          <div class="flow-step__number">4</div>
+          <div class="flow-step__content">
+            <h3 class="flow-step__title">継続セッション</h3>
+            <p class="flow-step__text">セッションの契約にかかる手数料は初回の1回のみで2回目以降はかかりません。(スタンダードプラン以降)</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="flow__cta" data-aos="fade-up" data-aos-delay="500">
+        <a href="#contact" class="btn btn--gradient btn--large">トレーナー登録へ進む</a>
+      </div>
+    </div>
+  </section>
+  
+  <!-- 料金プラン -->
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">トレーナー料金プログラム</h2>
+      
+      <div class="pricing__tabs">
+        <button class="pricing__tab pricing__tab--active" data-tab="monthly">月額プラン</button>
+      </div>
+      
+      <div class="pricing__plans">
+        <div class="pricing-plan" data-aos="fade-up" data-aos-delay="100">
+          <div class="pricing-plan__header">
+            <h3 class="pricing-plan__title">ライトプラン</h3>
+            <div class="pricing-plan__price">
+              <span class="pricing-plan__currency">¥</span>
+              <span class="pricing-plan__amount">0</span>
+              <span class="pricing-plan__period">/月</span>
+            </div>
+            <p class="pricing-plan__description">手軽に始められる基本プラン</p>
+          </div>
+          
+          <ul class="pricing-plan__features">
+            <li><i class="fas fa-check"></i> 無料体験予約の手数料: 0%</li>
+            <li><i class="fas fa-check"></i> 有料予約の手数料: 30%</li>
+            <li><i class="fas fa-check"></i> 基本プロフィール掲載</li>
+            <li><i class="fas fa-check"></i> アプリリリースから6ヶ月以内に登録で25%</li>
+          </ul>
+        </div>
+        
+        <div class="pricing-plan pricing-plan--popular" data-aos="fade-up" data-aos-delay="200">
+          <div class="pricing-plan__badge">おすすめ</div>
+          <div class="pricing-plan__header">
+            <h3 class="pricing-plan__title">スタンダードプラン</h3>
+            <div class="pricing-plan__price">
+              <span class="pricing-plan__currency">¥</span>
+              <span class="pricing-plan__amount">10,000</span>
+              <span class="pricing-plan__period">/月</span>
+            </div>
+            <p class="pricing-plan__description">バランスの取れたプラン</p>
+          </div>
+          
+          <ul class="pricing-plan__features">
+            <li><i class="fas fa-check"></i> 有料予約の手数料: 20%</li>
+            <li><i class="fas fa-check"></i> 優先表示（検索結果上位）</li>
+            <li><i class="fas fa-check"></i> 詳細プロフィール・実績掲載</li>
+            <li><i class="fas fa-check"></i> マーケティングサポート</li>
+            <li><i class="fas fa-check"></i> アプリリリースから6ヶ月以内に登録で15%</li>
+          </ul>
+          
+
+        </div>
+        
+        <div class="pricing-plan" data-aos="fade-up" data-aos-delay="300">
+          <div class="pricing-plan__header">
+            <h3 class="pricing-plan__title">プロプラン</h3>
+            <div class="pricing-plan__price">
+              <span class="pricing-plan__currency">¥</span>
+              <span class="pricing-plan__amount">50,000</span>
+              <span class="pricing-plan__period">/月</span>
+            </div>
+            <p class="pricing-plan__description">プロフェッショナル向け高機能プラン</p>
+          </div>
+          
+          <ul class="pricing-plan__features">
+            <li><i class="fas fa-check"></i> 有料予約の手数料: 15%</li>
+            <li><i class="fas fa-check"></i> 最優先表示（検索結果最上位）</li>
+            <li><i class="fas fa-check"></i> パーソナルトレーニングサポート</li>
+            <li><i class="fas fa-check"></i> パーソナルサポートアプリの利用無料(月額10万円での展開予定)2026年中旬</li>
+            <li><i class="fas fa-check"></i> アプリリリースから6ヶ月以内に登録で15%</li>
+          </ul>
+          
+
+        </div>
+      </div>
+      
+      <!-- 年額料金プラン（初期状態では非表示） -->
+      <div class="pricing__plans pricing__plans--yearly" style="display: none;">
+        <!-- 年額プランのコンテンツ（月額×12×0.9） -->
+      </div>
+    </div>
+  </section>
+  
+  <!-- サポート体制 -->
+  <section class="support" id="support">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">充実のサポート体制</h2>
+      
+      <div class="support__grid">
+        <div class="support-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="support-card__icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <h3 class="support-card__title">専用トレーニングと教材</h3>
+          <p class="support-card__text">トレーナー向けの動画講座(2026年以降予定)で、効果的なオンラインコミュニケーション術やアプリの使い方を学べます。成功事例も随時共有されるので、常にスキルアップできる環境です。</p>
+        </div>
+        
+        <div class="support-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="support-card__icon">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h3 class="support-card__title">安心の運営サポート</h3>
+          <p class="support-card__text">トラブル対応や報酬に関する質問など、専門チームがサポート。初めてのデジタル活動でも安心して取り組めます。</p>
+        </div>
+        
+        <div class="support-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="support-card__icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h3 class="support-card__title">成長が見えるダッシュボード</h3>
+          <p class="support-card__text">あなたの活動状況や利用者の継続率、フィードバックなどを一目で確認。どんな指導が効果的かを分析し、サービス向上に役立てられます。</p>
+        </div>
+        
+        <div class="support-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="support-card__icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3 class="support-card__title">トレーナーコミュニティ</h3>
+          <p class="support-card__text">同じ志を持つ仲間と交流し、情報交換やコラボレーションも可能。孤独になりがちなフリーランス活動も、共に成長できる仲間がいます。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- よくある質問 -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">よくある質問</h2>
+      
+      <div class="faq__list" data-aos="fade-up">
+        <div class="faq-item">
+          <div class="faq-item__question">
+            <h3>資格は必要ですか？</h3>
+            <span class="faq-item__icon"></span>
+          </div>
+          <div class="faq-item__answer">
+            <p>資格の有無が審査の優遇には関連しません。最も重視しているのは人柄であり、実務経験や専門知識をお持ちの方も歓迎しています。審査過程でご経験や知識を確認させていただきます。</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-item__question">
+            <h3>未経験でも始められますか？</h3>
+            <span class="faq-item__icon"></span>
+          </div>
+          <div class="faq-item__answer">
+            <p>はい。専門知識をお持ちであれば、オンライン指導が初めての方でも始められます。大切なのは人柄とユーザーの目標達成のために取り組める方です。</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-item__question">
+            <h3>必要な機材はありますか？</h3>
+            <span class="faq-item__icon"></span>
+          </div>
+          <div class="faq-item__answer">
+            <p>スマートフォンとインターネット環境があれば始められます。より効率的な活動にはPCやタブレットもあると便利です。</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-item__question">
+            <h3>最低活動時間などの制約はありますか？</h3>
+            <span class="faq-item__icon"></span>
+          </div>
+          <div class="faq-item__answer">
+            <p>特に最低活動時間の設定はありません。ご自身のペースで無理なく活動いただけます。ただし、ユーザーからの質問には24時間以内の返信を推奨しています。</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-item__question">
+            <h3>審査から活動開始までどれくらいかかりますか？</h3>
+            <span class="faq-item__icon"></span>
+          </div>
+          <div class="faq-item__answer">
+            <p>面談・契約から約1週間程度で活動を開始いただけます。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- 最終CTA -->
+  <section class="cta" id="cta">
+    <div class="container">
+      <div class="cta__inner" data-aos="fade-up">
+        <h2 class="cta__title">あなたの知識と経験を、もっと価値ある形に</h2>
+        <p class="cta__text">ウェルテラスは、あなたの専門性を必要としている人と、テクノロジーの力でつなぎます。<br>自分らしく働きながら、誰かの人生を変えるやりがいを。</p>
+        <div class="cta__buttons">
+          <a href="#contact" class="btn btn--gradient btn--large">登録を申請する</a>
+        </div>
+        <p class="cta__note">※登録後面談で双方合意納得のいく形でスタートしていきたいと思います。</p>
+      </div>
+    </div>
+    <div class="cta__bg">
+      <img src="images/cta-bg.svg" alt="">
+    </div>
+  </section>
+  
+  <!-- トレーナー登録フォーム -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact__inner" data-aos="fade-up">
+        <h2 class="section-title">トレーナー登録を申請する</h2>
+        <p class="contact__text">フォーム送付後担当者よりご連絡させていただきます。</p>
+        
+        <form class="contact__form">
+          <div class="form-group">
+            <label for="contact-name">お名前 <span class="required">*</span></label>
+            <input type="text" id="contact-name" name="name" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="contact-email">メールアドレス <span class="required">*</span></label>
+            <input type="email" id="contact-email" name="email" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="contact-phone">電話番号 <span class="required">*</span></label>
+            <input type="tel" id="contact-phone" name="phone" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="contact-specialty">専門分野 <span class="required">*</span></label>
+            <select id="contact-specialty" name="specialty" required>
+              <option value="">選択してください</option>
+              <option value="training">パーソナルトレーニング</option>
+              <option value="yoga">ヨガ・ピラティス</option>
+              <option value="nutrition">栄養・食事指導</option>
+              <option value="mental">メンタルヘルス</option>
+              <option value="other">その他</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="experience">経験年数 <span class="required">*</span></label>
+            <select id="experience" name="experience" required>
+              <option value="">選択してください</option>
+              <option value="less-than-1">1年未満</option>
+              <option value="1-3">1〜3年</option>
+              <option value="3-5">3〜5年</option>
+              <option value="5-10">5〜10年</option>
+              <option value="over-10">10年以上</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="qualification">保有資格</label>
+            <input type="text" id="qualification" name="qualification">
+          </div>
+          
+          <div class="form-group">
+            <label for="plan">希望プラン <span class="required">*</span></label>
+            <select id="plan" name="plan" required>
+              <option value="">選択してください</option>
+              <option value="light">ライトプラン（¥0/月）</option>
+              <option value="standard">スタンダードプラン（¥10,000/月）</option>
+              <option value="pro">プロプラン（¥50,000/月）</option>
+              <option value="undecided">まだ決めていない</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="contact-message">自己PR・指導方針 <span class="required">*</span></label>
+            <textarea id="contact-message" name="message" rows="5" required></textarea>
+          </div>
+          
+          <div class="form-group form-group--checkbox">
+            <input type="checkbox" id="contact-privacy" name="privacy" required>
+            <label for="contact-privacy"><a href="/privacy-policy" target="_blank">プライバシーポリシー</a>と<a href="/terms" target="_blank">利用規約</a>に同意する <span class="required">*</span></label>
+          </div>
+          
+          <button type="submit" class="btn btn--gradient btn--large btn--full">トレーナー登録を申請する</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  
+  <!-- フッター -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__main">
+        <div class="footer__logo">
+          <img src="images/logo-white.png" alt="ウェルテラス" width="180" height="40">
+        </div>
+        
+        <div class="footer__links">
+          <div class="footer__column">
+            <h4 class="footer__heading">サービス(今後リリース予定)</h4>
+            <ul>
+              <li><a href="#">ユーザー向けサービス</a></li>
+              <li><a href="#">トレーナー向けサービス</a></li>
+              <li><a href="#">法人向けサービス</a></li>
+              <li><a href="#">料金プラン</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer__column">
+            <h4 class="footer__heading">会社情報(開設中)</h4>
+            <ul>
+              <li><a href="#">会社概要</a></li>
+              <li><a href="#">お問い合わせ</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer__column">
+            <h4 class="footer__heading">ヘルプ</h4>
+            <ul>
+              <li><a href="https://pear-jade-56f.notion.site/1d508ad92d0f80818204d8dabdf205e8?pvs=4">利用規約</a></li>
+              <li><a href="https://pear-jade-56f.notion.site/1d508ad92d0f80b58746fda0aec6e4c1?pvs=4">プライバシーポリシー</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer__column">
+            <h4 class="footer__heading">ソーシャル</h4>
+            <div class="footer__social">
+              <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.tiktok.com/@welteras" aria-label="TikTok"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://youtube.com/@welteras?si=nn1IBNMtXRVOeR7x" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer__bottom">
+        <p class="footer__copyright">© 2025 Lu-Teras All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- モーダル：成功 -->
+  <div class="modal" id="successModal">
+    <div class="modal__content">
+      <button class="modal__close"><i class="fas fa-times"></i></button>
+      <div class="modal__icon modal__icon--success">
+        <i class="fas fa-check-circle"></i>
+      </div>
+      <h3 class="modal__title">送信完了</h3>
+      <p class="modal__text">ありがとうございます。登録申請を受け付けました。<br>担当者より1営業日以内にご連絡いたします。</p>
+      <button class="btn btn--gradient btn--full modal__button">閉じる</button>
+    </div>
+  </div>
+  
+  <!-- モーダル：エラー -->
+  <div class="modal" id="errorModal">
+    <div class="modal__content">
+      <button class="modal__close"><i class="fas fa-times"></i></button>
+      <div class="modal__icon modal__icon--error">
+        <i class="fas fa-exclamation-circle"></i>
+      </div>
+      <h3 class="modal__title">エラーが発生しました</h3>
+      <p class="modal__text">申し訳ありません。送信中にエラーが発生しました。<br>時間をおいて再度お試しいただくか、お問い合わせよりご連絡ください。</p>
+      <button class="btn btn--gradient btn--full modal__button">閉じる</button>
+    </div>
+  </div>
+  
+  <!-- JavaScriptファイル -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.3.2/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
